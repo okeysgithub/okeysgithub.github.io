@@ -1,0 +1,243 @@
+body {
+    background-color: whitesmoke;
+    font-family: inherit;
+    max-width: 1440px;
+}
+
+.header {
+    margin-left: 40px;
+
+}
+.header h2 {
+    color: rgb(16, 121, 232);
+    font-size: 60px;
+    margin-bottom: 0px;
+    font-family: inherit;
+}
+
+.header p {
+    font-size: 25px;
+    margin-top: 2px;
+    font-family: inherit;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.header {
+    margin-left: -19px; 
+    margin-right: 40px;  
+    padding-right: 20px;
+}
+
+.mid {
+    margin: 0px;
+}
+
+.input {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;  
+    align-items: center; 
+    padding-top: 10px;
+    height: 400px;
+    box-shadow: 0 6px 17px -9px;
+    border-radius: 10px;
+    width: 350px;
+    margin-bottom: -60px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input {
+    padding: 10px;
+    padding-right: 70px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+
+input .login{
+    padding-left: 30px;
+    
+}
+
+.line {
+    border-bottom: 1px solid #c7c5c5;
+    width: 250px;
+    padding-top: 20px;
+}
+a {
+    /* margin-left: 10px; */
+    /* justify-content: center; */
+    color: blue;
+    text-decoration: none;
+    padding-top: 10px;
+    
+}
+
+.btn {
+    background-color: green;
+    margin-top: 30px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.login {
+    width: 100%;
+    background-color: rgb(29, 107, 243);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 65px;
+    
+}
+
+.text p {
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-color: whitesmoke;
+        font-family: inherit;
+    }
+        
+    .header {
+        margin-left: 40px;
+    }
+    
+    .header h2 {
+        color: rgb(16, 121, 232);
+        font-size: 60px;
+        margin-bottom: 0px;
+        font-family: inherit;
+        text-align: center;
+    }
+        
+    .header p {
+        font-size: 20px;
+        margin-top: 2px;    
+        font-family: inherit;
+        text-align: center;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;    
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -40px;
+    }
+        
+    .header {
+        padding-right: 10px;
+    }
+    
+    .mid {
+        margin: 0px;
+    }
+    .input {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;  
+        align-items: center; 
+        padding-top: 30px;
+        height: 100%;
+        box-shadow: 0 6px 17px -9px;
+        border-radius: 10px;
+        width: 350px;
+        margin-bottom: -50px;
+        margin-left: 40px;   
+        justify-content: center;
+    }
+    
+    input {
+        padding: 10px;
+        padding-right: 70px;
+        margin-bottom: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        
+    }
+    
+    input .login{
+        padding-left: 30px;
+        cursor: pointer;
+        
+    }
+    
+    .line {
+        border-bottom: 1px solid #c7c5c5;
+        width: 250px;
+        padding-top: 20px;
+    }
+    a {
+        /* margin-left: 10px; */
+        /* justify-content: center; */
+        color: blue;
+        text-decoration: none;
+        padding-top: 10px;
+        
+    }
+    
+    .btn {
+        background-color: green;
+        margin-top: 30px;
+        padding: 10px;
+        width: 150px;
+        color: white;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .login {
+        width: 100%;
+        background-color: rgb(29, 107, 243);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        padding-left: 65px;
+        
+    }
+    
+    .text p {
+        font-size: 17px;
+        margin-top: 70px;
+        text-align: center;
+    }
+    
+    span {
+        font-weight: bold;
+    }
+}
